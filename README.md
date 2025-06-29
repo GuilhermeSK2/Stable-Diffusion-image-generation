@@ -13,7 +13,7 @@ Este notebook configura um ambiente para carregar o modelo SDXL e gerar uma imag
 
 ## Estrutura do Projeto
 
-* `StableDiffusion.ipynb`: O notebook Jupyter que contém todo o código para configurar o ambiente, carregar o modelo SDXL e gerar imagens.
+* `stablediffusion.py`: O arquivo que contém todo o código para configurar o ambiente, carregar o modelo SDXL e gerar imagens.
 
 ## Tecnologias Utilizadas
 
@@ -37,8 +37,6 @@ Você pode ajustar os seguintes parâmetros no notebook para controlar a imagem 
 * `seed`: Um valor numérico para reproduzir os mesmos resultados de geração (para uma semente fixa, o mesmo prompt e parâmetros produzirão a mesma imagem).
 
 ## Exemplo de Saída
-
-O notebook exibirá a imagem gerada diretamente no ambiente Jupyter.
 
 Prompt usado para gerar a imagem abaixo: "Sketch drawing of a 90s Formula 1 car"
 
